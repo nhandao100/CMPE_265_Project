@@ -34,7 +34,8 @@ def prompt_choice():
         return my_choice
     else:
         print("Must be R/S/P!")
-        sys.exit()
+        #sys.exit()
+        prompt_choice()
 
 def compete_board(user_choice, AI_choice):
     global human_score
